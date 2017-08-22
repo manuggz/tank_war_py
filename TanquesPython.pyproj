@@ -22,7 +22,35 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="class_spritesheet.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="class_entidad.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="class_animacion.py" />
+    <Compile Include="class_bala_simple.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="class_escena.py" />
+    <Compile Include="class_fps.py" />
+    <Compile Include="class_juego.py" />
+    <Compile Include="class_personaje.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="class_player.py" />
+    <Compile Include="class_nivel.py" />
+    <Compile Include="class_tanque_simple_enemigo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="states_player.py" />
+    <Compile Include="states_tanque_simple_enemigo.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="TanquesPython.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="tiles_tanques.png" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

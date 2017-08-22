@@ -243,3 +243,10 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/data/BackgroundMusic-antiguo1.wav
+/data/TankExplosion-antiguo1.wav
+/data/ShotFiring-antiguo1.wav
+/data/ShellExplosion-antiguo1.wav
+/data/EngineIdle.aif
+/data/EngineDriving.aif
+*.pyc
